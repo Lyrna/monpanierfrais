@@ -13,24 +13,25 @@
 	<img src="assets/img/banniere.jpg" alt="banniere" class="banniere">
 	<h1>Bienvenue chez Lise et Paul LARGE</h1>
 	<div class="buttons">
-		<button>Légumes</button>
-		<button>Fruits</button>
-		<button>Confitures</button>
-		<button>Boissons</button>
+		<button id="button1">Légumes</button>
+		<button id="button2">Fruits</button>
+		<button id="button3">Confitures</button>
+		<button id="button4">Boissons</button>
 	</div>
 	<div>
-		<button class="showall">Tout afficher</button>
+		<button class="showall" id="button5">Tout afficher</button>
 	</div>
 </header>
 	<!--Legumes-->
-	<div class="row legume">
+<div id="legume">
+	<div class="row">
 		<div class="col-12">
 			<h2>Nos légumes</h2>
 			<hr/>
 		</div>
 	</div>
-	<div class="row legume">
-		<div class="col-12 col-lg-4">
+	<div class="row">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Aubergine.png" alt="aubergines" class="image">
@@ -39,7 +40,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 		<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Carotte.png" alt="carottes" class="image">
@@ -48,7 +49,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Oignons.png" alt="oignons" class="image">
@@ -58,8 +59,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="row legume">
-		<div class="col-12 col-lg-4">
+	<div class="row">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Courgette.png" alt="courgettes" class="image">
@@ -68,7 +69,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 		<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Petitpois.png" alt="petits pois" class="image">
@@ -77,7 +78,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/legumes/Tomate.png" alt="tomates" class="image">
@@ -87,15 +88,17 @@
 			</div>
 		</div>
 	</div>
+</div>
 	<!--Fruits-->
-	<div class="row fruit">
+<div id="fruit">
+	<div class="row">
 		<div class="col-12">
 			<h2>Nos fruits</h2>
 			<hr/>
 		</div>
 	</div>
-	<div class="row fruit">
-		<div class="col-12 col-lg-4">
+	<div class="row">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/fruits/Cerises.png" alt="cerises" class="image"/>
@@ -104,7 +107,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 		<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/fruits/Fraise.png" alt="fraises" class="image"/>
@@ -113,7 +116,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/fruits/PommeRouge.png" alt="pommes" class="image"/>
@@ -123,9 +126,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="row fruit">
-		<div class="col-12 col-lg-2"></div>
-		<div class="col-12 col-lg-4">
+	<div class="row">
+		<div class="col-12 col-md-2"></div>
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/fruits/Prune.png" alt="prunes" class="image"/>
@@ -134,7 +137,7 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/fruits/Raisins.png" alt="mûres" class="image"/>
@@ -143,18 +146,20 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-2"></div>
+		<div class="col-12 col-md-2"></div>
 	</div>
+</div>
 	<!--Confitures-->
-	<div class="row confiture">
+<div id="confiture">
+	<div class="row">
 		<div class="col-12">
 			<h2>Nos confitures</h2>
 			<hr/>
 		</div>
 	</div>
-	<div class="row confiture">
-		<div class="col-12 col-lg-1"></div>
-		<div class="col-12 col-lg-4">
+	<div class="row">
+		<div class="col-12 col-md-1"></div>
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/confitures/ConfCerises.png" alt="confcerises" class="image"/>
@@ -163,16 +168,16 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-2">
+		<div class="col-12 col-md-2">
 		<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/confitures/ConfCoings.png" alt="confcoings" class="image"/>
-			      <h5 class="card-title">Coings</h5>
+			      <h5 class="card-title coings">Coings</h5>
 			      <p class="card-text">3€/kg</p>
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-4">
+		<div class="col-12 col-md-4">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/confitures/ConfFraise.png" alt="confFraises" class="image"/>
@@ -181,56 +186,58 @@
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-1"></div>
+		<div class="col-12 col-md-1"></div>
 	</div>
+</div>
 	<!--Drinks-->
-	<div class="row boisson">
+<div id="boisson">
+	<div class="row">
 		<div class="col-12">
 			<h2>Nos boissons</h2>
 			<hr/>
 		</div>
 	</div>
-	<div class="row boisson">
-		<div class="col-12 col-lg-3">
+	<div class="row">
+		<div class="col-12 col-md-3">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/boissons/jusdepomme.png" alt="jus de pommes" class="image"/>
-			      <h5 class="card-title">Jus de pommes</h5>
+			      <h5 class="card-title jus">Jus de pommes</h5>
 			      <p class="card-text">3€</p>
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-3">
+		<div class="col-12 col-md-3">
 		<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/boissons/jusdeFramboise.png" alt="jus de framboises" class="image"/>
-			      <h5 class="card-title">Jus de framboises</h5>
+			      <h5 class="card-title jus">Jus de framboises</h5>
 			      <p class="card-text">4€/kg</p>
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-3">
+		<div class="col-12 col-md-3">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/boissons/jusdeMyrtilles.png" alt="jus de myrtilles" class="image"/>
-			      <h5 class="card-title">Jus de myrtilles</h5>
+			      <h5 class="card-title jus">Jus de myrtilles</h5>
 			      <p class="card-text">4€/kg</p>
 			   </div>
 			</div>
 		</div>
-		<div class="col-12 col-lg-3">
+		<div class="col-12 col-md-3">
 			<div class="card">
 			   <div class="card-body">
 			   	<img src="assets/img/boissons/jusdeMurs.png" alt="jus de mûres" class="image"/>
-			      <h5 class="card-title">Jus de mûres</h5>
+			      <h5 class="card-title jus">Jus de mûres</h5>
 			      <p class="card-text">4€/kg</p>
 			   </div>
 			</div>
 		</div>
 	</div>
+</div>
 <footer></footer>
-
-
+<!--Script-->
 <script src="assets/js/script.js"></script>
 </body>
 </html>

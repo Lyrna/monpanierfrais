@@ -119,6 +119,11 @@ p{
 	color: #f09719;
 }
 
+/*coings n'aura plus les lettres qui vont à la ligne*/
+.coings{
+	white-space: nowrap;
+}
+
 /*footer*/
 footer{
 	height: 300px;
@@ -149,12 +154,27 @@ footer{
 	font-size: 2em !important;
 	}
 
+	.jus{
+		font-size: 1.4em !important;
+	}
+
 	.image{
 	height: 120px;
 	margin-bottom: 20px;
 	}
+
 	footer{
 	height: 200px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	h1{
+		font-size: 2.7em !important;
+	}
+
+	h5{
+		font-size: 1.4em !important;
 	}
 }
 
@@ -165,6 +185,11 @@ footer{
 	}
 
 	h2{
-		font-weight: normal !important;
+		font-size: 2em !important;
+		text-align: center;
+	}
+
+	h5{
+		font-size: 1.5em !important;
 	}
 }
