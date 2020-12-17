@@ -40,37 +40,18 @@ button{
 }
 
 /*buttons bg*/
-button:first-child{
-	background-color: #3AD13C;
-}
+button:first-child{background-color: #3AD13C;}
+button:nth-child(2){background-color: #DA4C37;}
+button:nth-child(3){background-color: #94439C;}
+button:last-child{background-color: #F09719;}
 
-button:nth-child(2){
-	background-color: #DA4C37;
-}
-
-button:nth-child(3){
-	background-color: #94439C;
-}
-button:last-child{
-	background-color: #F09719;
-}
 /*hover buttons*/
-button:first-child:hover{
-	background-color: #2BAD43;
-}
+button:first-child:hover{background-color: #2BAD43;}
+button:nth-child(2):hover{background-color: #B23329;}
+button:nth-child(3):hover{background-color: #59297A;}
+button:last-child:hover{background-color: #DA7312;}
 
-button:nth-child(2):hover{
-	background-color: #B23329;
-}
-
-button:nth-child(3):hover{
-	background-color: #59297A;
-}
-
-button:last-child:hover{
-	background-color: #DA7312;
-}
-
+/*show all button*/
 button.showall{
 	background-color: transparent;
 	color: #342E38;
@@ -168,6 +149,12 @@ footer{
 	}
 }
 
+@media screen and (max-width: 974px){
+	button{
+		width: 400px !important;
+	}
+}
+
 @media screen and (max-width: 800px){
 	h1{
 		font-size: 2.7em !important;
@@ -191,5 +178,15 @@ footer{
 
 	h5{
 		font-size: 1.5em !important;
+	}
+
+	button{
+		width: 300px !important;
+	}
+}
+
+@media screen and (max-width: 500px){
+	button{
+		width: 250px !important;
 	}
 }

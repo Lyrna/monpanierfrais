@@ -12,6 +12,7 @@ legOnly.addEventListener("click", function() {
 	confiture.style.display = "none";
 	boisson.style.display = "none";
 });
+
 //button 2 to show only fruits
 let fruitOnly = document.getElementById('button2');
 
