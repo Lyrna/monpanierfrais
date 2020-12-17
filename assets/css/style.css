@@ -1,0 +1,170 @@
+@font-face{
+	font-family: amienne;
+	src: url(../font/Amienne.ttf);
+}
+
+@font-face{
+	font-family: jost;
+	src: url(../font/Jost.ttf);
+}
+
+body{
+	font-family: jost !important;
+	color: #342E38;
+}
+
+/*header with : banner, title and buttons*/
+header{
+	text-align: center;
+}
+
+.banniere{
+	width:100%;
+	height: auto;
+}
+
+h1{
+	font-family: amienne;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	font-size: 5em !important;
+}
+/*button style*/
+button{
+	border:none;
+	margin: 10px !important;
+	padding: 10px;
+	width:300px;
+	color:white;
+	font-size:2em !important;
+}
+
+/*buttons bg*/
+button:first-child{
+	background-color: #3AD13C;
+}
+
+button:nth-child(2){
+	background-color: #DA4C37;
+}
+
+button:nth-child(3){
+	background-color: #94439C;
+}
+button:last-child{
+	background-color: #F09719;
+}
+/*hover buttons*/
+button:first-child:hover{
+	background-color: #2BAD43;
+}
+
+button:nth-child(2):hover{
+	background-color: #B23329;
+}
+
+button:nth-child(3):hover{
+	background-color: #59297A;
+}
+
+button:last-child:hover{
+	background-color: #DA7312;
+}
+
+button.showall{
+	background-color: transparent;
+	color: #342E38;
+}
+
+button.showall:hover{
+	background-color: transparent;
+	opacity: 0.7;
+}
+
+/*All products in cards*/
+
+.row{
+	margin-left:2em !important;
+	margin-right:2em !important;
+}
+
+h2{
+	font-weight: bold !important;
+	font-size: 4em !important;
+}
+
+hr{
+	background-color: #A6A194;
+	margin-bottom: 40px !important;
+}
+
+.card{
+	text-align: center;
+	margin-bottom: 15px;
+	border: none !important;
+}
+
+.image{
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+h5{
+	font-size: 3.5em !important;
+	color: #342E38;
+}
+
+p{
+	font-size: 3em;
+	color: #f09719;
+}
+
+/*footer*/
+footer{
+	height: 300px;
+	background-color: #dcdcdc;
+}
+
+/*make it responsive*/
+@media screen and (max-width: 1400px){
+	button{
+		width: 220px !important;
+		font-size:1.4em !important;
+	}
+
+	h1{
+	padding-top: 80px;
+	padding-bottom: 30px;
+	}
+
+	h2{
+		font-size: 2.5em !important;
+	}
+
+	p{
+	font-size:1.2em;
+	}
+
+	h5{
+	font-size: 2em !important;
+	}
+
+	.image{
+	height: 120px;
+	margin-bottom: 20px;
+	}
+	footer{
+	height: 200px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 3em !important;
+		padding: 15px !important;
+	}
+
+	h2{
+		font-weight: normal !important;
+	}
+}
